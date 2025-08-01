@@ -10,8 +10,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Yato")     
-    DB_URL  = os.environ.get("DB_URL","mongodb")
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
+    DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
